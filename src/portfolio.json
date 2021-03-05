@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "image": "https://www.nextbigfuture.com/wp-content/uploads/2019/02/AIworld-730x430.jpg",
+        "name": "Psychic Game",
+        "link": "https://smreinar.github.io/Word-Guess-Game/"
+    },
+    {
+        "id": 2,
+        "image": "https://www.thomsonreuters.com/content/dam/ewp-m/images/image-library/en/photography/201138-118072186.jpeg.transform/hero-s/q90/image.jpg",
+        "name": "Super Mario Trivia Game",
+        "link": "https://smreinar.github.io/TriviaGame/"
+    }
+]
