@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio"; // Import Portfolio
 // Import Socail medai
 // Import react/component
 import './App.css';
+import Navbar from './components/Navbar';
 
 class App extends Component{
   
@@ -18,7 +19,7 @@ class App extends Component{
   render() {
     return(
       <div className="container">
-      {/* Navbar */}
+        <Navbar></Navbar>
       {/* Aboutme */}
       {/* Portfolio */}
         <div className="card-deck">
