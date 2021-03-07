@@ -3,17 +3,17 @@ import "./navbarstylesheet.css";
 
 const Navbar = props => (
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top pb-0">
-        <div class="container">
-            <button class="navbar-toggler" data-toggle="collapse" data-targets="#Navbar">
-              <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-sm navbar-light bg-white fixed-top pb-0">
+        <div className="container">
+            <button className="navbar-toggler" data-toggle="collapse" data-targets="#Navbar">
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <a class="nabar-brand p-0"><h1 class="p-2 px-4 mb-0 mt-2 text-dark">Steven Reinart</h1></a>
-            <div class="collapse navbar-collapse" id="Navbar">
-              <ul class="navbar-nav ml-auto mb-0 pb-0">
-                <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Socail Media</a></li>
+            <a className="nabar-brand p-0"><h1 className="p-2 px-4 mb-0 mt-2 text-dark">Steven Reinart</h1></a>
+            <div className="collapse navbar-collapse" id="Navbar">
+              <ul className="navbar-nav ml-auto mb-0 pb-0">
+                <li className="nav-item"><a href="#" className="nav-link">About Me</a></li>
+                <li className="nav-item"><a href="#" className="nav-link">Portfolio</a></li>
+                <li className="nav-item"><a href="#" className="nav-link">Socail Media</a></li>
               </ul>
             </div>
         </div>
