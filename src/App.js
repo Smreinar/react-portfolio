@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import projects from "./portfolio.json";
+import projects from "./portfolio.json"; // Import portfolio libary
 import Portfolio from "./components/Portfolio"; // Import Portfolio
-// Import Nvabar
-// Import Aboutme
 // Import Socail medai
 // Import react/component
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'; // Import Nvabar
+import Aboutme from './components/Aboutme'; // Import Aboutme
 
 class App extends Component{
   
@@ -21,6 +20,7 @@ class App extends Component{
       <div className="container">
         <Navbar></Navbar>
       {/* Aboutme */}
+      <Aboutme></Aboutme>
       {/* Portfolio */}
         <div className="card-deck">
           {this.state.projects.map(projects => (
