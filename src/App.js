@@ -20,13 +20,14 @@ class App extends Component{
       <div className="container">
         <Navbar></Navbar>
         {/* Aboutme */}
+        <h2>About Me</h2>
+        <div className="row" >
         <Aboutme></Aboutme>
+        </div>
         {/* Portfolio */}
-        <div className="row">
-          <div className="card-deck">
+        <div className="row1">
             {this.state.projects.map(projects => (
               <Portfolio
-          
               key={projects.id}
               id={projects.id}
               name={projects.name}
@@ -34,8 +35,9 @@ class App extends Component{
               link={projects.link}
               ></Portfolio> 
             ))}
-          </div>
         </div>
+        {/* Resume? */}
+
             {/* Socail Media */}
         <div className="row justify-content-md-center">
           <div className="card-deck">
@@ -51,6 +53,7 @@ class App extends Component{
             ))}
           </div>
         </div>
+        {/* Contact */}
       </div>
     )
   }

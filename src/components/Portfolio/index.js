@@ -2,10 +2,10 @@ import React from "react";
 import "./portfoliostylesheet.css";
 
 const Portfolio = props => (
-    <div className="col-md-3">
-    <div className="card mx-auto">
+    <div className="column">
+    <div className="card">
         <a href={props.link}>
-        <img className="card-img-top" alt={props.name} src={props.image}/>
+        <img className="card-image" alt={props.name} src={props.image}/>
         <div className="card-body">
             <div className="card-title">
                 {props.name}

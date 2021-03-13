@@ -6,7 +6,7 @@ const Aboutme = props => (
         <div className="col">
             <div className="card">
               <div className="card-title my-3">
-                <h2 className="pt-5 mx-5 my-2">About Me</h2>
+                
                 <div className="media">
                   <img src="https://raw.githubusercontent.com/Smreinar/HW-Wireframe/master/img/38887143_1839726319400109_1556848477122592768_o.jpg" width="200" height="200" class="img-fluid rounded-top mx-5 my-2 d-none d-lg-block"></img>
                   <div className="media-body">
